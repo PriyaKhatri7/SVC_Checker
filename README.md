@@ -41,21 +41,23 @@ svc-checker/
    cd SVC_Checker
 
 2. Create a virtual environment: 
-   ```bash
+   ```python
     python -m venv .venv
     .venv\Scripts\activate`      # Windows
     or
-    `source .venv/bin/activate`   # macOS/Linux ```
+    `source .venv/bin/activate`   # macOS/Linux
 
 3. Install dependencies: 
-   ```bash
-   python -m pip install -r requirements.txt ```
+   ```python
+   python -m pip install -r requirements.txt
+   ```
 
 ---
 
 ## Run the script manually
-   `python main.py --urls="https://example.com,https://api.github.com"`
-
+   ```python
+   python main.py --urls="https://example.com,https://api.github.com"`
+```
 
 ### Optional arguments: 
 | Flag         | Description                           | Default    |
