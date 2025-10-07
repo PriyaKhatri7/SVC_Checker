@@ -32,18 +32,18 @@ svc-checker/
    git clone https://github.com/PriyaKhatri7/SVC_Checker.git
    cd SVC_Checker
 
-2. Create a virtual environemnt 
+2. Create a virtual environment: 
   ```bash
-  python -m venv .venv
-.venv\Scripts\activate`      # Windows
- or
-`source .venv/bin/activate`   # macOS/Linux
+    python -m venv .venv
+    .venv\Scripts\activate`      # Windows
+    or
+    `source .venv/bin/activate`   # macOS/Linux
 
 --- 
 
-3. Install dependencies 
-`python -m pip install -r requirements.txt`
-
+3. Install dependencies: 
+```bash
+python -m pip install -r requirements.txt
 ---
 
 ## Run the script manually:
