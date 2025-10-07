@@ -39,10 +39,38 @@ svc-checker/
  or
 `source .venv/bin/activate`   # macOS/Linux
 
-3. Install dependencies 
+Install dependencies 
 `python -m pip install -r requirements.txt`
 
+---
 
 ## Run the script manually:
 `python main.py --urls="https://example.com,https://api.github.com"`
 
+
+### Optional arguments: 
+| Flag         | Description                           | Default    |
+| ------------ | ------------------------------------- | ---------- |
+| `--urls`     | Comma-separated list of URLs to check | *Required* |
+| `--timeout`  | Timeout (seconds) for each request    | `5`        |
+| `--attempts` | Number of retry attempts              | `3`        |
+
+Logs will be saved to run.log and printed to the console.
+
+## Continuous Integration (CI)
+This project uses GitHub Actions to automatically:
+- Install dependencies
+- Run pytest
+- Upload test results as an artifact
+
+You can find the workflow file at:
+```.github/workflows/ci.yml```
+
+
+CI Status Badge:
+
+# Future Improvements
+ - Add parallel requests for faster checks
+ - Send Slack/email alerts for failed endpoints
+ - Add configurable JSON/YAML input for URLs
+ -  Dockerize for deployment
