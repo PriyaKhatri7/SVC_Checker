@@ -17,24 +17,24 @@ It’s perfect for simple uptime monitoring or integration into CI/CD pipelines.
 ## Project Structure
 ```text
 svc-checker/
-│
-├── main.py                # Main health check script
-├── tests/                 # Test cases
-│   ├── __init__.py
-│   └── test_main.py
-│
-├── requirements.txt       # Dependencies
-├── pytest.ini             # Test configuration
-├── .github/
-│   └── workflows/
-│       ├── ci.yml         # Continuous Integration workflow
-│       └── scheduled.yml  # Scheduled health check workflow
-│
-├── .gitignore             # Ignore rules
-└── README.md              # You are here :)
+      │
+      ├── main.py                # Main health check script
+      ├── tests/                 # Test cases
+      │   ├── __init__.py
+      │   └── test_main.py
+      │
+      ├── requirements.txt       # Dependencies
+      ├── pytest.ini             # Test configuration
+      ├── .github/
+      │   └── workflows/
+      │       ├── ci.yml         # Continuous Integration workflow
+      │       └── scheduled.yml  # Scheduled health check workflow
+      │
+      ├── .gitignore             # Ignore rules
+      └── README.md              # You are here :)
+```
 
 ## Installation
-
 1. Clone the repository:
    ```bash
    git clone https://github.com/PriyaKhatri7/SVC_Checker.git
