@@ -39,7 +39,9 @@ svc-checker/
  or
 `source .venv/bin/activate`   # macOS/Linux
 
-Install dependencies 
+--- 
+
+3. Install dependencies 
 `python -m pip install -r requirements.txt`
 
 ---
