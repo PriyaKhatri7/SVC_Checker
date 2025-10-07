@@ -17,13 +17,20 @@ It’s perfect for simple uptime monitoring or integration into CI/CD pipelines.
 ## Project Structure
 svc-checker/
 │
-├── main.py              # Main healthcheck script
-├── tests/               # Test files for pytest
-├── requirements.txt     # Dependencies
-├── pytest.ini           # Pytest config
-├── .github/workflows/   # GitHub Actions CI workflows
-├── .gitignore           # Ignored files/folders
-└── README.md            # You are here :)
+├── main.py                # Main health check script
+├── tests/                 # Test cases
+│   ├── __init__.py
+│   └── test_main.py
+│
+├── requirements.txt       # Dependencies
+├── pytest.ini             # Test configuration
+├── .github/
+│   └── workflows/
+│       ├── ci.yml         # Continuous Integration workflow
+│       └── scheduled.yml  # Scheduled health check workflow
+│
+├── .gitignore             # Ignore rules
+└── README.md              # You are here :)
 
 ## Installation
 
