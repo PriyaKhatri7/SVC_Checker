@@ -33,21 +33,20 @@ svc-checker/
    cd SVC_Checker
 
 2. Create a virtual environment: 
-  ```bash
+   ```bash
     python -m venv .venv
     .venv\Scripts\activate`      # Windows
     or
     `source .venv/bin/activate`   # macOS/Linux
 
---- 
-
 3. Install dependencies: 
-```bash
-python -m pip install -r requirements.txt
+   ```bash
+   python -m pip install -r requirements.txt
+
 ---
 
-## Run the script manually:
-`python main.py --urls="https://example.com,https://api.github.com"`
+## Run the script manually
+   `python main.py --urls="https://example.com,https://api.github.com"`
 
 
 ### Optional arguments: 
@@ -59,6 +58,8 @@ python -m pip install -r requirements.txt
 
 Logs will be saved to run.log and printed to the console.
 
+---
+
 ## Continuous Integration (CI)
 This project uses GitHub Actions to automatically:
 - Install dependencies
@@ -68,8 +69,11 @@ This project uses GitHub Actions to automatically:
 You can find the workflow file at:
 ```.github/workflows/ci.yml```
 
-
-CI Status Badge:
+## Badges 
+[![CI](https://github.com/PriyaKhatri7/SVC_Checker/actions/workflows/ci.yml/badge.svg)](https://github.com/PriyaKhatri7/SVC_Checker/actions/workflows/ci.yml)
+![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/build-passing-brightgreen)
 
 # Future Improvements
  - Add parallel requests for faster checks
