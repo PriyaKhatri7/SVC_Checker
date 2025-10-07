@@ -45,11 +45,11 @@ svc-checker/
     python -m venv .venv
     .venv\Scripts\activate`      # Windows
     or
-    `source .venv/bin/activate`   # macOS/Linux
+    `source .venv/bin/activate`   # macOS/Linux ```
 
 3. Install dependencies: 
    ```bash
-   python -m pip install -r requirements.txt
+   python -m pip install -r requirements.txt ```
 
 ---
 
