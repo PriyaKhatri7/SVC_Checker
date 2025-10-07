@@ -15,6 +15,7 @@ It’s perfect for simple uptime monitoring or integration into CI/CD pipelines.
 ---
 
 ## Project Structure
+```text
 svc-checker/
 │
 ├── main.py                # Main health check script
