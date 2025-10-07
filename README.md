@@ -5,7 +5,7 @@ It’s perfect for simple uptime monitoring or integration into CI/CD pipelines.
 
 ---
 
-## 🚀 Features
+## Features
 - Sends HTTP GET requests to multiple URLs  
 - Retries with exponential backoff for resilience  
 - Logs results to console and `run.log`  
@@ -14,7 +14,7 @@ It’s perfect for simple uptime monitoring or integration into CI/CD pipelines.
 
 ---
 
-## 🧰 Project Structure
+## Project Structure
 svc-checker/
 │
 ├── main.py              # Main healthcheck script
@@ -25,7 +25,7 @@ svc-checker/
 ├── .gitignore           # Ignored files/folders
 └── README.md            # You are here :)
 
-## 💻 Installation
+## Installation
 
 1. Clone the repository:
    ```bash
@@ -33,15 +33,16 @@ svc-checker/
    cd SVC_Checker
 
 2. Create a virtual environemnt 
+  ```bash
   python -m venv .venv
-.venv\Scripts\activate      # Windows
-# or
-source .venv/bin/activate   # macOS/Linux
+.venv\Scripts\activate`      # Windows
+ or
+`source .venv/bin/activate`   # macOS/Linux
 
 3. Install dependencies 
-python -m pip install -r requirements.txt
+`python -m pip install -r requirements.txt`
 
 
-Run the script manually:
+## Run the script manually:
 `python main.py --urls="https://example.com,https://api.github.com"`
 
